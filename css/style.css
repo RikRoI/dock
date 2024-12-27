@@ -680,7 +680,6 @@ h6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 80px;
-  column-count: 4;
 }
 
 .footer-colum-1 p {
@@ -695,6 +694,7 @@ h6 {
   font-weight: 400;
   color: #121722;
   column-count: 1;
+  list-style: none;
 }
 
 .footer-colum-3 a {
@@ -709,4 +709,16 @@ h6 {
   font-size: 16px;
   font-weight: 400;
   color: #121722;
+}
+
+.footer-colum-2 ul {
+  list-style: none;
+}
+
+.footer-colum-3 ul {
+  list-style: none;
+}
+
+.footer-colum-4 ul {
+  list-style: none;
 }
